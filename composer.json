@@ -1,0 +1,15 @@
+{
+    "name": "quetemvc2/simplemvc",
+    "authors": [
+        {
+            "name": "Eric Rousselet",
+            "email": "rousselet.eric@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+    	"psr-4": {
+        	"": "src/"
+    	}
+    }
+}
