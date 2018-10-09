@@ -1,0 +1,15 @@
+{% extends 'layout.html.twig' %}
+{% block title %}Liste des catégories{% endblock %}
+{% block category %}
+
+    <section>
+        <h1>Les categories</h1>
+        <ul>
+            {% for category in categories %}
+                <li>{{ category.name }}</li>
+            {% endfor %}
+        </ul>
+    </section>
+
+{% endblock %}
+{% block content %}Contenu de la page liste des catégories{% endblock %}
