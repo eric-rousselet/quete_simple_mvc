@@ -11,8 +11,9 @@
         "twig/twig": "^2.5"
     },
     "autoload": {
-    	"psr-4": {
-        	"": "src/"
-    	}
+        "psr-4": {
+            "": "src/",
+            "App\\": "app/"
+        }
     }
 }
